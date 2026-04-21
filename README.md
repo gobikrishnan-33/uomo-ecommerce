@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+🛍️ Uomo — React E-Commerce App
+A fully functional fashion e-commerce web app built with React and Context API — one of my core personal portfolio projects. Uomo covers the complete shopping experience from browsing to cart management, with clean component architecture and global state handled entirely through React's built-in Context API.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔗 Live Demo: https://gobikrishnan-33.github.io/uomo-ecommerce/
 
-## Available Scripts
 
-In the project directory, you can run:
+📸 Preview
 
-### `npm start`
+<img width="1433" height="849" alt="Screenshot 2026-04-21 at 1 38 28 PM" src="https://github.com/user-attachments/assets/f1a32834-0be6-4e98-9290-4ca2bafa4ac1" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎯 About This Project
+Uomo is a personal project built to strengthen my React skills and demonstrate real-world frontend development — component design, state management with Context API, routing, and responsive UI — without relying on any third-party state library.
 
-### `npm test`
+🛠️ Tech Stack
+TechnologyPurposeReact (CRA)UI framework and component architectureReact Context APIGlobal state — cart, wishlist, filtersReact RouterMulti-page navigation and routingCSS3Responsive styling and layoutJavaScript (ES6+)Logic, filtering, data handling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✨ Features
 
-### `npm run build`
+🗂️ Product Listing & Filtering — Browse products with dynamic filter controls (category, price, etc.)
+📄 Product Detail Page — Individual product pages with image, description, and add-to-cart action
+🛒 Shopping Cart — Add/remove items, update quantities, view cart total
+❤️ Wishlist — Save favourite products and manage them separately
+🌐 Multi-page Navigation — React Router for seamless page transitions
+📱 Responsive Design — Works across desktop and mobile viewports
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📂 Project Structure
+uomo-ecommerce/
+├── public/
+├── src/
+│   ├── components/       # Reusable UI components (Navbar, ProductCard, etc.)
+│   ├── context/          # React Context — CartContext, WishlistContext
+│   ├── pages/            # Page components (Home, Products, ProductDetail, Cart)
+│   ├── data/             # Product data
+│   └── App.js            # Root component with routing
+├── package.json
+└── README.md
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🚀 Getting Started
+View Live
+👉 https://gobikrishnan-33.github.io/uomo-ecommerce/
+Run Locally
+bash# Clone the repository
+git clone https://github.com/gobikrishnan-33/uomo-ecommerce.git
 
-### `npm run eject`
+cd uomo-ecommerce
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Install dependencies
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Start the development server
+npm start
+Open http://localhost:3000 in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+💡 Key Takeaways / What I Learned
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Structuring a multi-page React app with React Router from scratch
+Managing shared global state (cart + wishlist) cleanly using Context API
+Building reusable components — product cards, filters, nav, cart drawer
+Implementing dynamic filtering logic in React without external libraries
+Deploying a React app to GitHub Pages with gh-pages
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🗺️ Roadmap / Future Improvements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ Add Redux Toolkit for more scalable state management
+ Integrate a real backend / mock API (JSON Server or Supabase)
+ Add user authentication (login/signup)
+ Add checkout flow with order summary
+ Improve mobile UI and add skeleton loaders
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👨‍💻 Author
+Gobikrishnan M — Frontend Developer
+📎 LinkedIn | 💻 GitHub
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📄 License
+This is a personal portfolio project. Feel free to explore the code for learning purposes.
